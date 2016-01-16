@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40302.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthMVC.Managers", "TokenAuthMVC.Managers\TokenAuthMVC.Managers.csproj", "{28FD1900-363E-43EA-AB44-0850915AC588}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthMVC.Web", "TokenAuthMVC.Web\TokenAuthMVC.Web.csproj", "{C5651AE0-B9C0-4647-B28B-7EC19268E8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthMVC.API", "TokenAuthMVC.API\TokenAuthMVC.API.csproj", "{F27372EF-8A69-404E-8C62-021E788E4909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAuthMVC.API.Tests", "TokenAuthMVC.API.Tests\TokenAuthMVC.API.Tests.csproj", "{A60A145F-3D70-46AA-9ABB-4BACE570209D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C5651AE0-B9C0-4647-B28B-7EC19268E8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5651AE0-B9C0-4647-B28B-7EC19268E8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5651AE0-B9C0-4647-B28B-7EC19268E8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27372EF-8A69-404E-8C62-021E788E4909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27372EF-8A69-404E-8C62-021E788E4909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27372EF-8A69-404E-8C62-021E788E4909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27372EF-8A69-404E-8C62-021E788E4909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60A145F-3D70-46AA-9ABB-4BACE570209D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60A145F-3D70-46AA-9ABB-4BACE570209D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60A145F-3D70-46AA-9ABB-4BACE570209D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60A145F-3D70-46AA-9ABB-4BACE570209D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
